@@ -1,0 +1,218 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 10px 30px;
+    align-content: center;
+    height: 35px;
+    border: 1px solid rgb(235, 235, 235);
+    border-left: none;
+    border-right: none;
+}
+.centre-tile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    border: 1px solid lightgrey;
+    padding: 0px 10px;
+    padding-right: 5px;
+    border-radius: 50px;
+}
+.centre-tile p{
+    margin: 0;
+    font-size: 10px;
+    font-weight: 700;
+    
+}
+.search{
+    padding: 6px;
+    background-color: #FF5A5F;
+    border-radius: 50px;
+}
+.vl{
+    width:0.5px;
+    height:20px;
+    background-color: lightgrey;
+
+}
+.right-tile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.right-tile p{
+    margin: 0;
+    font-size: 10px;
+    font-weight: bold;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90%;
+    gap: 8px;
+    border: 1px solid lightgrey;
+    padding: 0px 5px;
+    border-radius: 50px;
+}
+.right-tile-img{
+    height:15px;
+    width: 15px;
+}
+.right-tile p{
+    opacity: 70%;
+}
+.bar{
+    height: 40px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.icons{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+.icon{
+    height: 100%;
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+}
+#first-icon{
+    opacity: 100%;
+    border-bottom: 2px solid black;
+}
+.icon img{
+    width: 30%;
+    height: 50%;
+}
+.icon p{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    margin-top: 4px;
+}
+.right-part{
+    width: 31%;
+    height:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 5px;
+    background: linear-gradient(to left, rgb(255, 255, 255),rgba(255, 255, 255, 0.418));
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.arrow{
+    width: 20px;
+    height: 20px;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.filters{
+    height: 70%;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:4px 10px
+}
+.filters p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.diplay-before-taxes{
+    height: 70%;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding:4px 10px
+}
+.diplay-before-taxes p{
+    font-size: 10px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.card{
+    width: 24%;
+}
+.card-img{
+    position: relative;
+}
+.dots{
+    width: 30%;
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+}
+.card-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.heart{
+    position: absolute;
+    right:10px;
+    top:10px;
+}
+.card h4{
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card p{
+    margin:0;
+    font-size: 12px;
+    color: gray;
+}
+#price{
+    margin: 5px 0px 20px 0px;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    gap: 8px;
+    padding: 10px;
+    position: fixed;
+    bottom: 30px;
+    left:45vw;
+    background-color: rgba(0, 0, 0, 0.87);
+    border-radius: 50px;
+}
+.footer p{
+    margin: 0;
+    color: white;
+    font-size: 12px;
+}
